@@ -1,0 +1,38 @@
+//Созадйте число. Определите, является ли чесло трехзначным. Определите, является ли его
+последняя цифра семеркой. Определите, является ли  число четным.
+
+public class Task2{
+
+  public static void main (String [] args){
+    
+
+      int n;
+
+      if (a>=100 && a<1000) {
+           System.out.println("yavlyaetsya");
+      } else {
+           System.out.println("ne yavlyaetsya")
+      }     
+
+
+        if (n%10=7) {
+              System.out.println(yavlyaetsya")
+        } else { 
+              System.out.println("ne yavlyaetsya")
+        }
+
+           if (a % 2 == 0) {
+                System.out.println("Chetnoe");
+          } else {
+                System.out.println("Ne Chetnoe");
+          } 
+}
+
+
+
+
+
+
+
+
+}

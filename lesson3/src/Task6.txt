@@ -1,0 +1,19 @@
+//Дано любое натуральное 4-значное число. Верно ли, что все цифры различны?
+
+public class Task4{
+   public static void main (String [] args){
+     
+    int a = n / 1000;
+    int b = n / 100 % 10;
+    int c = n % 100 / 10;
+    int d = n % 10;
+      
+      if (a <> b && a <> c && a<>d && b <> c && b <> d && c <> d){
+        System.out.println ("Vse cifri razlichny");
+      }else {
+         System.out.println ("Ne vse cifri razlichny");
+      }
+   
+    }
+
+}

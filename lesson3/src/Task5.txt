@@ -1,0 +1,29 @@
+//Определить число, полученное выписыванием в обратном порядке цифр любого 
+4-х значного натурального числа n
+
+public class Task 5{
+  public static void main (String [] args){
+
+  int a = 6475;
+  
+  int first = a % 10; //5
+  a = a / 10;         // 647
+ 
+  int second = a % 10;//7
+  a = a / 10;         //64
+
+  int third = a % 10; //4
+  a = a / 10;         //6
+
+System.out.println ("" + first + second + third + a );
+
+
+
+
+
+
+  }
+
+
+
+}

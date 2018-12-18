@@ -1,0 +1,17 @@
+//Имеется прямоугольное отверстие размерами a и b.
+ Определить, можно ли его полностью закрыть круглой картонкой радиусом r.
+
+public class Task3{
+   public static void main (String [] args){
+       Rectangle rectangle = new Rectangle(2, 2);
+        Circle circle = new Circle(1);
+ 
+        if(circle.getDiagonal() == rectangle.getDiagonal()) {
+            System.out.println("Krug zakryl pryamougolnik!");
+        } else {
+            System.out.println("Krug ne zakryl pryamougolnik.");
+        }
+   }
+
+
+}
